@@ -59,7 +59,7 @@
                         <TextBlock Text="{Binding Department}" FontSize="18" Foreground="Aquamarine"/>
                     </StackPanel>
 
-                    <Button x:Name=" btnDeleteEmployee" Grid.Column="1" Background="Transparent" BorderBrush="Transparent" Click="btnDeleteEmployee_Click">
+                    <Button x:Name="btnDeleteEmployee" Grid.Column="1" Background="Transparent" BorderBrush="Transparent" Click="btnDeleteEmployee_Click">
                         <SymbolIcon Symbol="Delete"/>
                     </Button>
 
