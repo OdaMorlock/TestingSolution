@@ -55,8 +55,8 @@
                     </Grid.ColumnDefinitions>
 
                     <StackPanel Grid.Column="0" Margin="0,10,40,10">
-                        <TextBlock Text="{Binding Fullname}" FontSize="24" />
-                        <TextBlock Text="{Binding Department}" FontSize="18" Foreground="Aquamarine"/>
+                        <TextBlock Text= "{Binding FullName}" FontSize="24" Foreground="Black" />
+                        <TextBlock Text= "{Binding Department}" FontSize="18" Foreground="Black"/>
                     </StackPanel>
 
                     <Button x:Name="btnDeleteEmployee" Grid.Column="1" Background="Transparent" BorderBrush="Transparent" Click="btnDeleteEmployee_Click">

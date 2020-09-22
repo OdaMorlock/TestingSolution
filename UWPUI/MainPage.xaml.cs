@@ -41,8 +41,8 @@ namespace UWPUI
             }
             finally
             {
-                tbFirstName.Text = " ";
-                tbLastName.Text = " ";
+                tbFirstName.Text = "";
+                tbLastName.Text = "";
                 cbDepartment.SelectedIndex = -1;
             }
         }

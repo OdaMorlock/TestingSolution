@@ -39,9 +39,10 @@ namespace SharedUwPLibrary.Models
         public Employee(string firstname, string lastname, string department)
         {
             Id = Guid.NewGuid();
-            firstname = FirstName;
-            lastname = LastName;
-            department = Department;
+
+            FirstName = firstname;
+            LastName = lastname;
+            Department = department;
 
             // var employee = new Employee ("Marcus", "Bäckström", "DeparmentGod");
         }
