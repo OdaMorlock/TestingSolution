@@ -10,5 +10,15 @@ namespace SharedCoreLibrary
         {
             return firstnumber + secondnumber;
         }
+
+        public double Subtract(double first, double second)
+        {
+            return first - second;
+        }
+
+        public double Multiply(double first, double second)
+        {
+            return first * second;
+        }
     }
 }
